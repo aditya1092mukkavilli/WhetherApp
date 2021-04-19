@@ -1,0 +1,32 @@
+.main-bg {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../assets/mainBG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container {
+    min-width: 300px;
+    width: auto;
+    height: 70vh;
+    border-radius: 9px;
+    background-color: rgb(255 255 255 / 49%);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    h1 {
+      padding: 12px;
+    }
+    .minmaxtemp {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    p {
+      font-weight: bolder;
+    }
+  }
+}
